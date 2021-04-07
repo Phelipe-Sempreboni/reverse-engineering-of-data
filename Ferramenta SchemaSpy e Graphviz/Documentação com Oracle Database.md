@@ -1,13 +1,6 @@
----
-
-Documentação elaborada por: Luiz Phelipe Utiama Sempreboni
-Data da última revisão: 01/05/2021
-Seguimentação: Modelagem e engenharia reversa de dados
-Tipo do banco de dados: Oracle (ora)
-Ferramentas: SchemaSpy versão 6.1.0
-			 Graphviz versão 2.47.0 EXE installer for Windows 10 (64-bit)
-
----
+| Documentação elaborada por     | Data da última revisão |               Seguimentação            | Tipo do banco de dados| Ferramenta            | Ferramenta  |
+| -----------------------------  |:----------------------:|:--------------------------------------:|:---------------------:|:---------------------:|:-----------:|
+| Luiz Phelipe Utiama Sempreboni |       01/05/2021       | Modelagem e engenharia reversa de dados|Oracle (ora)           | SchemaSpy versão 6.1.0| Graphviz versão 2.47.0 EXE installer for Windows 10 (64-bit)|
 
 ---
 
