@@ -7,6 +7,18 @@ Tipo do banco de dados: Oracle (ora)
 Ferramentas: SchemaSpy versão 6.1.0
 			 Graphviz versão 2.47.0 EXE installer for Windows 10 (64-bit)
 
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+
+| Documentação elaborada por     | Data da última revisão | Seguimentação | Tipo do banco de dados | Ferramenta1 | Ferramenta2 |
+| -----------------------------  | ---------------------- | ------------- |                        |             |             |
+| Luiz Phelipe Utiama Sempreboni |       01/05/2021       |               |                        |             |             |
+
 ---
 
 ---
