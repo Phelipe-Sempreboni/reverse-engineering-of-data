@@ -9,11 +9,11 @@
 ---
 
 Notas:
-O teste foi realizado com a versão 6.1.0 do SchemaSpy.
-O teste foi realizado com a versão 2.47.0 EXE installer for Windows 10 (64-bit) do Graphviz.
-O teste foi realizado com os bancos de dados Oracle versões 12c e 18c.
-O teste foi realizado com os drivers para conexão aos bancos de dados Oracle versões ojdbc7.jar para o banco versão 12c e ojdbc8.jar para o banco versão 18c. 
-O teste foi realizado com dois cenários. Um com acesso do banco por linha de comando com todas configurações e outro com um arquivo pré configurado com todas essas informações de configuração, com nome padrão de "schemaspy.properties".
+- O teste foi realizado com a versão 6.1.0 do SchemaSpy.
+- O teste foi realizado com a versão 2.47.0 EXE installer for Windows 10 (64-bit) do Graphviz.
+- O teste foi realizado com os bancos de dados Oracle versões 12c e 18c.
+- O teste foi realizado com os drivers para conexão aos bancos de dados Oracle versões ojdbc7.jar para o banco versão 12c e ojdbc8.jar para o banco versão 18c. 
+- O teste foi realizado com dois cenários. Um com acesso do banco por linha de comando com todas configurações e outro com um arquivo pré configurado com todas essas informações de configuração, com nome padrão de "schemaspy.properties".
 
 ---
 
