@@ -122,20 +122,44 @@ Modelo:
 
 17º - (1º método) - Após configurar a linha, a copie e cole dentro do (CMD) e tente rodar. Caso os passos tenham sido realizados corretamente, confira o local do caminho dos repositórios, neste caso, o caminho "C:\Desktop\Temp\Arquivos\Repositórios" , onde teremos a pasta com os arquivos. Confira o arquivo "index.html" que terá todas as informações geradas com o SchemaSpy do seu banco de dados.
 
-18º - (2º método) - Agora iremos utilizar o arquivo que foi configurado no 12º passo e configurar a linha de comando para acessar este arquivo pelo CMD e geração das informações para seu banco de dados, igual o 17º passo.
+18º - (1º método) - Caso queira executar estes comando de uma única vez diretamente no (CMD), utilize o '&' conforme o exemplo abaixo:
 
-19º - (2º método) - Exclua os arquivos da pasta do repositório, que foram gerados pelos passos 16º e 17º.
+Linha de comando: "cd C:\Desktop\Temp\Arquivos&java -jar schemaspy-6.1.0.jar -t ora -dp C:\Desktop\Temp\Arquivos\ojdbc8.jar -db PERSONAL -host localhost -port 1521 -u SYSTEM -p "Insira a senha" -c -cat % -o C:\Desktop\Temp\Arquivos\Repositórios"
 
-20º - (2º método) - Feche e abra novamente o CMD.
+19º - (2º método) - Agora iremos utilizar o arquivo que foi configurado no 12º passo e configurar a linha de comando para acessar este arquivo pelo CMD e geração das informações para seu banco de dados, igual o 17º passo.
 
-21º - (2º método) - Com o (CMD) aberto, vamos configurar o caminho do repositório que estão os arquivos alocados dos downloads. Utilizando exemplo, indique o caminho da seguinte maneira "cd C:\Desktop\Temp\Arquivos" e aperte enter, onde você estará no repositório pelo CMD.
+20º - (2º método) - Exclua os arquivos da pasta do repositório, que foram gerados pelos passos 16º e 17º.
 
-22º - (2º método) - Estando dentro do repositório dos arquivos alocados dos downloads, iremos construir o comando para executar o SchemaSpy. Seguindo o exemplo, neste caso seria o seguindo comando, onde executaremos o arquivo pré configurado no 12º passo -> java -jar schemaspy-6.1.0.jar C:\Desktop\Temp\Arquivos\schemaspy.properties.
+21º - (2º método) - Feche e abra novamente o CMD.
 
-23º - (2º método) - Após configurar a linha, a copie e cole dentro do (CMD) e tente rodar. Caso os passos tenham sido realizados corretamente, confira o local do caminho dos repositórios, neste caso, o caminho "C:\Desktop\Temp\Arquivos\Repositórios" , onde teremos a pasta com os arquivos. Confira o arquivo "index.html" que terá todas as informações geradas com o SchemaSpy do seu banco de dados.
+22º - (2º método) - Com o (CMD) aberto, vamos configurar o caminho do repositório que estão os arquivos alocados dos downloads. Utilizando exemplo, indique o caminho da seguinte maneira "cd C:\Desktop\Temp\Arquivos" e aperte enter, onde você estará no repositório pelo CMD.
 
-24º - Utilize o arquivo da maneira mais apropriada para sua linha de negócio, apresentações, consultas, etc.
+23º - (2º método) - Estando dentro do repositório dos arquivos alocados dos downloads, iremos construir o comando para executar o SchemaSpy. Seguindo o exemplo, neste caso seria o seguindo comando, onde executaremos o arquivo pré configurado no 12º passo -> java -jar schemaspy-6.1.0.jar C:\Desktop\Temp\Arquivos\schemaspy.properties.
 
+24º - (2º método) - Após configurar a linha, a copie e cole dentro do (CMD) e tente rodar. Caso os passos tenham sido realizados corretamente, confira o local do caminho dos repositórios, neste caso, o caminho "C:\Desktop\Temp\Arquivos\Repositórios" , onde teremos a pasta com os arquivos. Confira o arquivo "index.html" que terá todas as informações geradas com o SchemaSpy do seu banco de dados.
+
+25º - (2º método) - Caso queira executar estes comando de uma única vez diretamente no (CMD), utilize o '&' conforme o exemplo abaixo:
+
+Linha de comando: "cd C:\Desktop\Temp\Arquivos&java -jar schemaspy-6.1.0.jar C:\Desktop\Temp\Arquivos\schemaspy.properties"
+
+26º - Utilize o arquivo da maneira mais apropriada para sua linha de negócio, apresentações, consultas, etc.
+
+---
+
+## Métodos para execução do SchemaSpy com Python.
+
+Para execução do do SchemaSpy e pensando na automatização deste processo com Pyhon, pode-ser realizar os seguintes passos, tanto no VSCode, PyCharm ou alguma IDLE de escolha do desenvolvedor.
+
+	# Método para execução do SchemaSpy com Python e direcionando os arquivos para o diretório principal.
+	# Utilizando a bilioteca nativa (os) para acessar objetos do sistema.
+	
+	import os
+	os.system('cd Desktop\Temp\Arquivos&java -jar schemaspy-6.1.0.jar C:\Desktop\Temp\Arquivos\schemaspy.properties')
+	
+	# Outro teste executado em pasta temp da área de trabalho.
+	import os
+	os.system('cd Desktop\Temp\Modelagem_de_dados\SchemaSpy\Executaveis\PERSONAL&java -jar schemaspy-6.1.0.jar Desktop\Temp\Modelagem_de_dados\SchemaSpy\Executaveis\PERSONAL\schemaspy.properties')
+	
 ---
 
 ## Abaixo os testes realizados com banco de dados Oracle de forma local.
@@ -173,6 +197,10 @@ java -jar schemaspy-6.1.0.jar -t ora -dp C:\Desktop\Temp\Arquivos\ojdbc8.jar -db
 cd C:\Desktop\Temp\Arquivos
 
 java -jar schemaspy-6.1.0.jar C:\Desktop\Temp\Arquivos\schemaspy.properties
+
+Ou
+
+cd C:\Desktop\Temp\Arquivos&java -jar schemaspy-6.1.0.jar C:\Desktop\Temp\Arquivos\schemaspy.properties
 
 -- Abaixo um exemplo do arquivo pré configurado nomeado como "schemaspy.properties" que foi utilizado neste teste.
 
