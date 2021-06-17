@@ -2,7 +2,7 @@
 
 ---
 
-#### Este repositório foi criado para acumulo de conhecimento sobre projetos de modelagem e engenharia reversa de um banco de dados, onde conseguimos gerar informações, como por exemplo, quantidade de tabelas, de views, de colunas, de chaves, de anomalias, rotinas, de relacionamentos entre tabelas, de tabelas que não possuem relacionamentos, de forma mais prática e intuitiva, onde toda essa informação pode ser utilizada em estudos, linhas de negócios, acompanhamentos, apresentações, entre outras utilidades.
+Este repositório foi criado para acumulo de conhecimento sobre projetos de modelagem e engenharia reversa de um banco de dados, onde conseguimos gerar informações, como por exemplo, quantidade de tabelas, de views, de colunas, de chaves, de anomalias, rotinas, de relacionamentos entre tabelas, de tabelas que não possuem relacionamentos, de forma mais prática e intuitiva, onde toda essa informação pode ser utilizada em estudos, linhas de negócios, acompanhamentos, apresentações, entre outras utilidades.
 
 ---
 
