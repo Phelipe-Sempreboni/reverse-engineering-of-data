@@ -95,6 +95,7 @@ Modelo:
 12º - Modelo para configuração do arquivo:
 
 Nota: Abaixo deixarei o link do site com os descrições dos parâmetros abaixo, assim fica fácil saber o porquê dessa configuração.
+
 Acesse: http://schemaspy.sourceforge.net/
 
 	Modelo:
