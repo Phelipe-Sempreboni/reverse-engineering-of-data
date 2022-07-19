@@ -94,6 +94,9 @@ Modelo:
 
 12º - Modelo para configuração do arquivo:
 
+Nota: Abaixo deixarei o link do site com os descrições dos parâmetros abaixo, assim fica fácil saber o porquê dessa configuração.
+Acesse: http://schemaspy.sourceforge.net/
+
 	Modelo:
 	
 	#Tipo de banco de dados. Execute com "-dbhelp" para detalhes. No caso do Oracle poderá ser o tipo "ora" ou "orathin".
